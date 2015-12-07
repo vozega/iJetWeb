@@ -1,0 +1,72 @@
+/*! jQuery UI - v1.10.4 - 2014-04-02
+* http://jqueryui.com
+* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
+
+.ui-widget {
+	}
+.ui-widget .ui-widget{
+}
+.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{
+	}
+	/*
+.ui-widget-content{
+	background-color: #FFFFFF;
+	color: #4D4D4D
+}
+*/
+.ui-corner-all {
+    border-radius: 4px;
+}
+.ui-widget-content {
+    background: url();
+    border: none;
+    color: #fff;
+}
+.ui-widget-content a{color:#333}
+.ui-widget-header{
+	background: none;
+	border-bottom-color: #801621;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.ui-widget-header a{
+	/* [disabled]color: #fff; */
+}.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{
+	/* [disabled]font-weight: bold; */
+	color: #91A3A5;
+	font-size: 0px;
+}  
+.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited{
+	color: #91A3A5;
+	text-decoration: none;
+	font-size: 28px;
+}
+.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{
+	background-color: #E4E4E4;
+	/* [disabled]font-weight: bold; */
+	color: #923F3E
+}
+.ui-state-hover a,.ui-state-hover a:hover,.ui-state-hover a:link,.ui-state-hover a:visited,.ui-state-focus a,.ui-state-focus a:hover,.ui-state-focus a:link,.ui-state-focus a:visited{
+	color: #923F3E;
+	text-decoration: none
+}
+.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{
+	border: 1px solid #801621;
+	background-color: #fff;
+	/* [disabled]font-weight: bold; */
+	color: #923F3E;
+}
+.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{
+	color: #923F3E;
+	text-decoration: none
+}
+.ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight{
+	border: 1px solid #801621;
+	background-color: #801621;
+	color: #363636
+}
+.ui-state-highlight a,.ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a{color:#363636}
+
+.ui-state-error a,.ui-widget-content .ui-state-error a,.ui-widget-header .ui-state-error a{color:#fff}
+.ui-state-error-text,.ui-widget-content .ui-state-error-text,.ui-widget-header .ui-state-error-text{color:#fff}
+

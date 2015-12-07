@@ -1,0 +1,663 @@
+/*
+ 760 is just below ipad portrait.
+ The responsive menus module will switch the top menu to the small version and a lot of elements disappear or are reshuffled.
+ */
+
+@media only screen and (max-width: 760px) {
+
+  .mean-container .mean-bar {
+    position: absolute;
+    top: 145px;
+  }
+
+  .region-subheader {
+    margin: 35px 0 0;
+  }
+
+  body {
+    position:relative;
+    width:101%;
+    overflow-x:hidden;
+  }
+
+  #outer_container{
+    width:100%;
+    overflow:hidden;
+  }
+
+  #above_nav{
+    overflow:hidden;
+  }
+
+  .region-widebox-4{
+    width:100%;
+  }
+
+  #page{
+    width:95%;
+  }
+
+  /*#content_medium,
+  #content_wide,
+  #content_narrow {
+    width: 98%;
+    padding:2px 10px;
+  }*/
+
+  #content_medium,
+  #content_wide,
+  #content_narrow {
+    width: 70%;
+    padding:2px 5px 0 3px;
+	left: 5%;
+	position: relative;
+  }
+
+
+  #contentsubpage {
+    width: 100%;
+    padding-top:38px;
+  }
+
+  #contentsubpage h2{
+    font-size:30px;
+  }
+
+  #block-block-22 {
+  	
+  }
+
+  #logo_and_nav{
+    width:100%;
+    overflow:hidden;
+  }
+  #fp_frontlines {
+    width:100%;
+    overflow:hidden;
+  }
+
+  #fp_slideshow {
+    margin-top: 50px;
+  }
+
+  #sidebar {
+    display:none;
+  }
+
+  .overlaytext {
+    height:90%;
+    width:75%;
+    margin-top:-60px;
+  }
+  
+  .overlaytext h1{
+    line-height:115%;
+  }
+
+  .overlaytext p{
+    margin-top:2px;
+  }
+
+  .slider {
+    background-size: cover ;
+    background-position: 10% 50%;
+  }
+
+  .overlaytext .leanmore,
+  .fp-slide-learnmore-link {
+    position:absolute;
+    bottom:10px;
+    left:80px;
+    font-size:18px;
+  }
+
+  .heroprev {
+    top:280px;
+    left:10px;
+  }
+  .heronext {
+    top:226px;
+    right:-10px;
+  }
+
+  #views_slideshow_controls_text_previous_fp_slideshow_v2-block {
+    top:-135px;
+    margin-bottom:-204px;
+  }
+
+  #views_slideshow_controls_text_next_fp_slideshow_v2-block {
+    top:-135px;
+    margin-bottom:-204px;
+    padding: 100px 30px 100px 30px;
+  }
+
+  #block-views-front-lines-headlines-block{
+    margin:0 10px;
+  }
+
+  #fp_frontlines .region h2 {
+    padding-left:0;
+  }
+
+  .views-field-field-fl-type {
+    display:block;
+    clear:both;
+  }
+
+  .view-front-lines-headlines {
+
+  }
+
+  .view-front-lines-headlines .views-row {
+    padding: 0;
+  }
+
+  #views_slideshow_cycle_main_fp_slideshow_v2-block {
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  #fp_frontlines{
+
+  }
+
+  .view-front-lines-headlines,
+  .view-front-lines-headlines a,
+  .view-front-lines-headlines a:active,
+  .view-front-lines-headlines a:visited,
+  .view-front-lines-headlines a:hover
+  {
+    color: #333333;
+    font-size: 18px;
+  }
+
+  #fp_frontlines h2{
+    font-size:26px;
+  }
+
+  #views_slideshow_cycle_div_front_lines_headlines-block_0,
+  #views_slideshow_cycle_div_front_lines_headlines-block_1,
+  #views_slideshow_cycle_div_front_lines_headlines-block_2 {
+    width:400px !important;
+  }
+
+  #fp_frontlines .views-slideshow-controls-bottom {
+    margin: 0;
+  }
+  #block-block-11{
+    display:none;
+  }
+  #fp_featured_product .featured_product_image{
+    display:none;
+  }
+  #fp_featured_product .featured_product_body {
+    width:90%;
+  }
+  .featured_product_link {
+    padding:0;
+  }
+  .featured_product_link a{
+    padding:4px;
+  }
+
+  #fp_experts{
+    height:auto;
+    background-image:url(/sites/all/themes/ijet2/images/v2_images/bkg_from_our_experts.png);
+    background-size:auto 100%;
+    background-repeat:no-repeat;
+  }
+
+  .fp_fte_thumbnail_wrapper {
+    clear:both;
+    margin-top:10px;
+  }
+
+  #fp_experts #block-views-0ca82bcd88cba85018ff4770b4f7fbb4 {
+    height:auto;
+  }
+
+  #fp_experts #block-views-0ca82bcd88cba85018ff4770b4f7fbb4 h2{
+    font-size:32px;
+  }
+  
+  .fp_fte_headline,
+  .fp_fte_body {
+    width:340px;
+  }
+
+  .fte_bottom_link{
+    border:2px solid #666;
+    clear:both;
+    padding:4px 10px;
+    margin-left:3px;
+    width:160px;
+  }
+
+  .fte_bottom_link a{
+  }
+
+  #fp_experts #block-views-bf05a42bbecdbefae2546cfd7d4a20fd {
+    height:auto;
+    padding-top:5px;
+  }
+
+  #block-views-videos-page-block-1 .views-field-title,
+  #block-views-videos-page-block-1 .views-field-field-video-date,
+  #block-views-videos-page-block-1 .views-field-field-video-description {
+    float: left;
+    width: 100%;
+  }
+
+  #block-views-videos-page-block-1 .views-row {
+    min-height: 320px;
+  }
+
+  #twitterfooter{
+    width:100%;
+    overflow:hidden;
+  }
+
+  #twitterfooter .region-social{
+    clear:both;
+    width: 300px;
+    margin-left:3px;
+  }
+
+  /*#connect_box {
+    clear:both;
+    width:50%;
+    margin-left:0;
+  }*/
+  
+  #connect_box {
+  /* clear: both; */
+/* clear: both; */
+width: 100%;
+margin-left: 0;
+position: relative;
+/* float: right; */
+}
+
+
+
+
+  #block-webform-client-block-899 label{
+    width:200px;
+  }
+
+  #footer{
+    height:135px;
+  }
+
+  #footermenu{
+    display:none;
+  }
+
+  #footerhalfleft,
+  #footerhalfright{
+    margin:8px 5px;
+    padding:0;
+    clear:both;
+    width: 280px;
+  }
+
+.contentwithleftbox {
+  border-right: 0;
+  float: none;
+  padding: 0 15%;
+  width: 100%;
+}
+
+.contentwithrightbox {
+  border-right: 0;
+  float: none;
+  padding: 0 15%;
+  width: 100%;
+}
+
+.rightsidebar {
+	float: none;
+	margin-top: 0;
+	padding: 0 5%;
+	width: 100%;
+	margin-left: 15%;
+}
+
+  .front #twitterfooter {
+    width:100%;
+    overflow:hidden;
+  }
+
+  #twitterfooter,
+  #block-block-10 {
+    padding: 0 0 0 3px;
+  }
+
+  
+  .glitterboxes_box {
+  	clear:both;
+  	height:80px;
+  	margin:1px;
+  }
+  
+  .glitterbox_content {
+     top:50%;
+
+  }
+  
+  .glitterbox_content p{
+  	margin:4px 0 18px 0;
+  }
+  
+  p.glitterbox_blurb {
+  	font-size:14px;
+  	padding:0 6px;
+  }
+
+  /* css for headlines header listen now*/
+  .view-front-lines-headlines .view-header{
+   clear: both;
+    float: left;
+    margin-left: 0px;
+    margin-top: -80px;
+  }
+  /* css for headlines header listen now*/
+
+
+
+}
+
+/* iPhone 6 plus is 414px wide.
+   These styles have to work for iPhone 6 (375px) and Samsung Galaxy s4 (360px)
+   further styles apply below for iPhone 5 (320px) and similar
+
+*/
+
+@media only screen and (max-width: 415px) {
+
+  /*div, span, p {border:1px solid #f00 !important;} /* debugging only */
+
+  body {
+    width:101%;
+    overflow-x:hidden;
+    /*background:#800;*/
+  }
+
+   .mean-container .mean-bar {
+  position: absolute;
+  top: 145px;
+  }
+  #logo_and_nav_inner {
+    width:100%;
+  }
+
+  .front .region-subheader {
+  margin: 35px 0 0;
+  }
+
+   .not-front .region-subheader {
+  margin: 63px 0 0;
+  }
+
+  #contentsubpage {
+    width: 100%;
+    padding-top:38px;
+  }
+
+  #above_nav{
+    overflow:hidden;
+  }
+
+  #views_slideshow_cycle_main_fp_slideshow_v2-block {
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  #views_slideshow_cycle_div_front_lines_headlines-block_0,
+  #views_slideshow_cycle_div_front_lines_headlines-block_1,
+  #views_slideshow_cycle_div_front_lines_headlines-block_2 {
+    width:100% !important;
+  }
+
+  .views-slideshow-cycle-main-frame-row-item {
+    width:100%;
+  }
+
+ .view-front-lines-headlines {
+  color: #333333;
+  font-size: 22px;
+  top: 80px;
+  position: relative;
+  float: none;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+  #fp_frontlines .views_slideshow_cycle_teaser_section {
+    height:105px;
+  }
+
+#fp_frontlines .views-slideshow-controls-bottom {
+  bottom: 25px;
+  display: block;
+  position: relative;
+  width:100px;
+  margin:0 150px;
+}
+
+#block-block-11 {
+  display:none;
+  /*background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  display: block;
+  margin: 55px 0;
+  position: relative;*/
+}
+
+.qtip {
+  display: none;
+  visibility: hidden;
+}
+
+  #three_links_top1, #three_links_top2, #three_links_top3 {
+    margin: 1px 0 0 0;
+    clear:both;
+    padding:4px 10px;
+    width:95%;
+  }
+
+  /*top slider area*/
+
+  .overlaytext h1{
+    margin-left: -80px;
+    margin-top: 60px;
+    font-size: 32px;
+    width:400px;
+    text-shadow: -2px 0px 3px rgba(0, 0, 0, 0.6);
+  }
+  .overlaytext p {
+      margin-left: -80px;
+    font-size: 20px;
+      margin-top: 20px;
+      color: #000;
+      text-shadow: -2px 0px 3px rgba(0, 0, 0, 0.6);
+  }
+  #fp-slide-learnmore-link{
+    margin-top:300px;
+  }
+
+  .overlaytext .leanmore,
+  .fp-slide-learnmore-link {
+      left:-5px;
+  }
+  #views_slideshow_cycle_teaser_section_fp_slideshow_v2-block, .view-fp-slideshow-v2 .views-slideshow-cycle-main-frame-row {
+      height: 320px !important;
+      width: 100% !important;
+  }
+  .slider {
+      background-position: 1100px center;
+      background-size: cover;
+      clear: both;
+      height: 320px;
+      position: relative;
+      z-index: 0;
+  }
+  .heroprev {
+    width: 68px;
+    float: left;
+    position:relative;
+    top:270px;
+    left:20px;
+  }
+  .heronext {
+    width: 68px;
+    float: right;
+    position:relative;
+    top:220px;
+    right:0px;
+  }
+  .fp-slide-learnmore-link {
+    margin-bottom:-30px;
+    margin-left:25px;
+  }
+
+  #block-views-videos-page-block-1 .views-field-title,
+  #block-views-videos-page-block-1 .views-field-field-video-date,
+  #block-views-videos-page-block-1 .views-field-field-video-description {
+  float: left;
+  width: 100%;
+}
+
+#block-views-videos-page-block-1 .views-row {
+  min-height: 320px;
+}
+
+#block-views-front-lines-headlines-block {
+  width:100%;
+}
+
+.fte_bottom_link {
+  width: 95%;
+}
+
+#block-block-24 {
+  padding-bottom: 30px;
+}
+
+#sidebar {
+  display:none;
+}
+
+.contentwithleftbox {
+  border-right: 0;
+  float: none;
+  padding: 0 5% 0 0;
+  width: 95%;
+}
+
+.contentwithrightbox {
+  border-right: 0;
+  float: none;
+  padding: 0 5% 0 0;
+  width: 90%;
+}
+
+.rightsidebar {
+  float: none;
+  margin-top: 0;
+  padding: 0 3%;
+  width: 98%;
+}
+
+#twitter_box {
+	/* clear: both; */
+	width: 100%;
+	margin-left: 0;
+	position: relative;
+	/* float: right; */
+}
+
+#twitterfooter,
+#block-block-10 {
+  padding: 0 8%;
+
+}
+
+  #twitterfooter {
+  padding: 0 0 0 3px;
+
+}
+#fp_experts #block-views-0ca82bcd88cba85018ff4770b4f7fbb4 {
+    padding:0 0 0 6px;
+  }
+
+  #footer_inner {
+    width:100%;
+  }
+  #connect_now_box {
+    width:100%;
+  }
+  #connect_box p{
+    width:150px;
+  }
+
+  #footerinfo {
+    width:100%;
+  }
+  #footerhalfleft, #footerhalfright {
+    width:80%;
+  }
+  
+  /* css for headlines header listen now*/
+  .view-front-lines-headlines .view-header{
+    clear: both;
+    float: left;
+    margin-left: 0px;
+    margin-top: -81px;
+   }
+  /* css for headlines header listen now*/
+
+
+}
+
+/* iPhone 5 */
+
+@media only screen and (max-width: 330px) {
+  .featured_logo {
+    clear:both;
+    margin:0;
+  }
+
+  .fte_bottom_link {
+    width:90%;
+  }
+  .overlaytext h1{
+    width:320px;
+  }
+  .fp-slide-learnmore-link {
+    margin-left:-5px;
+  }
+
+  #block-views-front-lines-headlines-block {
+    width:98%;
+  }
+  #fp_frontlines .views-slideshow-controls-bottom {
+    margin-left:120px;
+  }
+  #block-block-11{
+    display:none;
+  }
+
+  #twitterfooter .region-social {
+    width:318px;;
+  }
+  
+  /* css for headlines header listen now*/
+  .view-front-lines-headlines .view-header{
+   clear: both;
+    float: left;
+    margin-left: 0px;
+    margin-top: -80px;
+  }
+  /* css for headlines header listen now*/
+
+}

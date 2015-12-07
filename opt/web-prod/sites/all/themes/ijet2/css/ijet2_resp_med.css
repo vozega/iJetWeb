@@ -1,0 +1,272 @@
+
+@media only screen and (max-width: 1020px) {
+  body {
+    position:relative;
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  #outer_container{
+    width:100%;
+    margin: 0 auto;
+    overflow:hidden;
+  }
+
+  #page{
+    width:100%;
+  }
+
+  #contentsubpage {
+    width:72%;
+  }
+  #content_wide{
+    width:95%;
+  }
+
+  #content_medium{
+    width:76%;
+  }
+
+  #content_narrow{
+    width:60%;
+  }
+
+  .region-above-nav{
+    width:95%;
+  }
+
+  #top_menu {
+    float:left;
+    font-size:1.15em;
+  }
+
+  .fp_slider_content{
+    margin:0;
+    width:700px;
+    padding-top:50px;
+  }
+
+  .overlaytext{
+    margin-left:100px;
+  }
+
+  .overlaytext h1 {
+
+  }
+
+  .heronext {
+    top:170px;
+    right:20px;
+  }
+
+  .overlaytext p {
+    font-size: 18px;
+    margin-top: -23px;
+  }
+
+  #block-views-front-lines-headlines-block{
+    width:780px;
+    margin:0 auto;
+  }
+
+  #fp_frontlines .views_slideshow_cycle_teaser_section {
+    height:125px;
+    width:100%;
+  }
+
+  #fp_frontlines .views-slideshow-controls-bottom {
+    margin: -20px 35%;
+  }
+
+  #views_slideshow_cycle_div_front_lines_headlines-block_0,
+  #views_slideshow_cycle_div_front_lines_headlines-block_1,
+  #views_slideshow_cycle_div_front_lines_headlines-block_2 {
+    width:600px !important;
+  }
+
+  #three_links_top{
+    width:100%;
+
+  }
+
+  #three_links_top1,
+  #three_links_top2,
+  #three_links_top3{
+    padding:10px 15px;
+    margin: 16px 0 0 9%;
+  }
+
+  #block-views-videos-page-block-1 .views-field-title,
+  #block-views-videos-page-block-1 .views-field-field-video-date,
+  #block-views-videos-page-block-1 .views-field-field-video-description {
+    width: 100%;
+  }
+  
+  #block-views-videos-page-block-1 .views-row {
+    min-height: 270px;
+  }
+
+  .region-widebox-4 {
+    width:100%;
+  }
+
+   /*   */
+
+  #fp_featured_product .region{
+    width:100%;
+  }
+
+  .featuredproduct_slider{
+    width:100%;
+  }
+
+  .featuredproduct_slider .views_slideshow_cycle_slide {
+    width:100% !important;
+  }
+
+  #fp_featured_product .featured_product_body{
+    width:45%;
+    padding:6px 0 10px 10px;
+  }
+
+  #fp_featured_product .featured_product_image {
+
+    width:50%;
+
+  }
+
+  #fp_featured_product .featured_product_image img{
+
+    width:95%;
+    height:auto;
+
+  }
+  #fp_featured_product h2 {
+    font-size:28px;
+    line-height:100%;
+  }
+
+  #fp_featured_product .views-slideshow-controls-bottom{
+    position:relative;
+    top:-90px;
+    margin-left:450px;
+    z-index:999;
+    padding-bottom:6px;
+  }
+
+  .featured_logo{
+    float:left;
+    clear:none;
+    margin-bottom:200px;
+    margin-right:10px;
+  }
+
+  .featured_blurb{
+    clear:none;
+    color:#fff;
+    margin-right:8px;
+  }
+
+  .featured_blurb p{
+    color:#fff;
+  }
+
+  .featured_product_link { /*thi9s has been applied to spans, not divs*/
+    border:2px solid #fff;
+    margin: 2px 12px;
+    padding: 4px 15px;
+  }
+
+  .featured_product_link a{
+    color:#fff;
+    text-decoration:none;
+  }
+
+   /* The buttons that control the slideshows */
+  .views-slideshow-pager-field-item {
+    float:left;
+    clear:none;
+    font-size:0px;
+    margin:2px;
+    background-image:url(/sites/all/themes/ijet2/images/v2_images/icon_dot_off.png);
+    background-repeat:no-repeat;
+    padding:8px;
+    z-index:9999;
+  }
+
+  .views-slideshow-pager-field-item.active{
+    background-image:url(/sites/all/themes/ijet2/images/v2_images/icon_dot_on.png);
+    background-repeat:no-repeat;
+    z-index:9999;
+  }
+
+  #fp_experts #block-views-bf05a42bbecdbefae2546cfd7d4a20fd{
+    width:100%;
+  }
+
+  .fte_bottom_link{
+    margin: 2px 0 0 10%;
+  }
+
+  #twitterfooter .region-social{
+    width: 360px;
+    margin-left:12px;
+  }
+
+  #connect_box {
+    margin-left:4%;
+  }
+
+  #footermenu ul.menu li {
+    margin: 0 0 0 0.2em;
+  }
+
+  #footermenu ul li {
+    padding: 2px 0 0 0;
+    width: 116px;
+    vertical-align: top;
+  }
+
+  #footerinfo {
+    width:1020px;
+  }
+
+  #footer_logo {
+    padding-left: 3px;
+  }
+
+  .glitterboxes_box {
+    width:180px;
+    height:180px;
+  }
+
+  .glitterbox_content p{
+    margin-top:4px;
+    font-size:12px;
+    line-height:100%;
+  }
+}
+
+@media only screen and (max-width: 776px) {
+  /* iPad Portrait is 768 wide */
+  .view-front-lines-headlines {
+    margin:28px 0 0 20px;
+  }
+  .rightsidebar {
+    padding-left:3px;
+  }
+  #contentsubpage {
+    width: 90%;
+    padding-top:38px;
+  }
+  
+   /* css for headlines header listen now*/
+  .view-front-lines-headlines .view-header{
+   clear: both;
+    float: left;
+    margin-left: -160px;
+    margin-top: 30px;
+  }
+  /* css for headlines header listen now*/
+
+}
